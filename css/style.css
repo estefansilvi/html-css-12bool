@@ -1,0 +1,23 @@
+[class*="col-"] {
+  border: 1px solid #000000;
+  background: pink;
+  min-height: 200px;
+  line-height: 200px;
+  text-align: center;
+}
+
+[class*="col-"] .container [class*="col-"] {
+  height: 180px;
+  line-height: 180px;
+  border: 1px solid #ffffff;
+  background-color: lightcoral;
+  position: relative;
+  line-height: normal;
+}
+
+ p {
+   position: absolute;
+   transform: translate(-50%,-50%);
+   top: 50%;
+   left: 50%;
+ }
