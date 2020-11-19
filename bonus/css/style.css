@@ -1,18 +1,18 @@
 [class*="col-"] {
   min-height: 70px;
 }
-.color-black {
+.bg-black {
   background: #000000;
 }
 
-.color-yellow {
+.bg-yellow {
   background: #FFFF00;
 }
 
-.color-red {
+.bg-red {
   background: #FF0000;
 }
 
-.color-white {
+.bg-white {
   background: #FFFFFF;
 }
